@@ -1,6 +1,6 @@
 # Satzung
 ## About
-Dieses Repository verweltet die Satzung der Hochschulgruppe "Flux" am KIT.
+Dieses Repository verwaltet die Satzung der Hochschulgruppe "Flux" am KIT.
 
 Die aktuelle Version nach Mitgliederversammlung befindet sich immer auf dem ``master`` branch.
 
