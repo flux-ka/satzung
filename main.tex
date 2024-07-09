@@ -1,5 +1,5 @@
 % !TeX spellcheck = de_DE
-\documentclass[11pt]{article}
+\documentclass[11pt, a4paper]{article}
 \usepackage[ngerman]{babel}
 \usepackage [T1]{fontenc}
 \usepackage{biolinum}
@@ -10,6 +10,9 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 
+\usepackage{fancyhdr}
+\fancyhead[LOE]{\today}
+
 %\newwatermark[pages=1-9,color=black!10,angle=45,scale=3,xpos=0,ypos=0]{Vorläufige Fassung}
 
 \biolinum
@@ -17,6 +20,7 @@
 \renewcommand{\thesection}{§ \arabic{section}}
 
 \begin{document}
+\pagestyle{fancy}
 	\begin{center}
 		\Large
 		\textbf{
@@ -24,7 +28,7 @@
 		\normalsize
 		(nur aus steuerlichen Gründen notwendige Bestimmungen)\\
 		\vspace{10mm}
-		Fassung vom 05.07.2024
+		Fassung vom \today
 		\vspace{10mm}
 	\end{center}
 
@@ -123,6 +127,11 @@
 		\begin{enumerate}
 			\item Der Vorstand besteht immer genau aus dem Vorsitz und Finanzreferent:in. Sobald diese Personen sich ändern, ändert sich automatisch auch der Vorstand.
 			\item Beide Mitglieder des Vorstandes sind berechtigt im Namen des Vorstandes zu sprechen und zu handeln.
+			\item Der Vorstand setzt sich aktuell (Stand \today) zusammen aus:
+			\begin{itemize}
+				\item Hannah Günther (Vorsitz)
+				\item Clemens Dautermann (Finanzreferentin)
+			\end{itemize}
 		\end{enumerate}
 	\end{enumerate}
 \section{Beiträge}
@@ -177,6 +186,14 @@ mildtätige oder kirchliche Zwecke zu verwenden hat.
 	genannten Personen aus der Hochschulgruppe hinaus.
 \end{enumerate}
 \section{Gültigkeit dieser Satzung}
-Diese Satzung ist ab sofort gültig.
-
+Diese Satzung ist ab sofort gültig.\\
+\vspace{25mm}\\
+\begin{center}
+	\begin{tabular}{@{}p{0.4\textwidth}p{0.1\textwidth}p{0.4\textwidth}@{}}
+	\hrulefill && \hrulefill\\
+	Clemens Dautermann && Hannah Günther \\
+	Karlsruhe, den \today && Karlsruhe, den \today\\
+	Finanzreferentin && Vorsitzende
+	\end{tabular}
+\end{center}
 \end{document}
